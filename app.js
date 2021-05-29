@@ -189,7 +189,7 @@ const cvs = document.getElementById("cvs")
 
 cvs.addEventListener("animationend", () =>{
 
-$(cvs).fadeOut( delay * 120);
+$(cvs).fadeOut(delay *100);
 
 })
 

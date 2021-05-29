@@ -1,3 +1,5 @@
+/* Animation of gamecube beginning */
+
 html,
 body {
   margin: 0;
@@ -323,4 +325,148 @@ body {
 
 #cube.metal .minicubeface.left {
   background: #535e8b;
+}
+
+/* Animation of gamecube end */
+
+
+
+.everything-else-after-animation {
+  margin: 0;
+  height: 100%;
+  background: rgb(3, 18, 31);
+  overflow: scroll;
+}
+
+.image-of-smashball{
+    position:relative;
+    top: -400px;
+    left: 600px;
+    opacity: 25%;
+    margin-bottom: -30%;
+    
+
+}
+
+
+/* Navigation bar */
+
+/* Logo */
+/* .hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: #7d3dbd;
+  margin: 86.60px 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.65);
+  transform:scale(0.2);
+  top: -125px;
+
+}
+
+.hexagon:before, .hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 43.9340px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.65);
+}
+
+.hexagon:before {
+  top: -106.0660px;
+}
+
+.hexagon:after {
+  bottom: -106.0660px;
+}
+
+/*cover up extra shadows*/
+/* .hexagon span {
+  display: block;
+  position: absolute;
+  top:0px;
+  left: 0;
+  width:300px;
+  height:173.2051px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hexagon span h1{
+font-size: 200px;
+} */
+
+/* logo */
+
+
+
+
+
+.nav{
+color: white;
+
+}
+.nav ul li a{
+    color: white
+}
+
+.intro{
+    padding-left: 15%;
+    color: white;
+    padding-right: 20%;
+    margin-top: 0%;
+}
+
+
+.intro #intro-intro-text{
+    margin-top: 15%;
+    margin-bottom: 0%;
+    word-spacing: 5px;
+    color: #5e4cba;
+  /* #7059e5) center; */
+}
+
+.intro .name{
+    font-size: 70px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+.intro .what-I-want-to-be{
+    font-size: 60px;
+    margin-top: 0px;
+
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.intro #body-text-about-me{
+    padding-right: 50%;
+}
+
+
+
+
+.about-me-section{
+    color: white;
+    display:inline;
+    justify-content: center;
+    text-align: center;
+    margin-top: -500px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.about-me-section h1{
+    transform: translateX(-15%);
+}
+
+.about-me-section h3{
+    margin-left: 20%;
+    margin-right: 50%;
 }
