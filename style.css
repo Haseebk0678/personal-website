@@ -332,10 +332,11 @@ body {
 
 
 .everything-else-after-animation {
-  margin: 0;
+  margin: 0%;
   height: 100%;
   background: rgb(3, 18, 31);
   overflow: scroll;
+  font-family: Arial;
 }
 
 .image-of-smashball{
@@ -408,12 +409,23 @@ font-size: 200px;
 
 
 
-.nav{
-color: white;
-
+.nav ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
+
+.nav ul li{
+    text-decoration: none;    
+}
+
 .nav ul li a{
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
 .intro{
@@ -453,20 +465,25 @@ color: white;
 
 
 
+
 .about-me-section{
     color: white;
-    display:inline;
-    justify-content: center;
-    text-align: center;
-    margin-top: -500px;
-    margin-left: 15%;
+    padding-left: 15%;
     margin-right: 15%;
-}
-.about-me-section h1{
-    transform: translateX(-15%);
+    margin-top: 15%;
 }
 
+.content-of-aboutme{
+    display: flex;
+}
+
+#my-beautiful-face{
+    width: 20em;
+    height: auto;
+    margin-left: 5%;
+}
+
+
 .about-me-section h3{
-    margin-left: 20%;
-    margin-right: 50%;
+    margin-right: 5%;
 }
