@@ -331,6 +331,7 @@ body {
 
 
 
+
 .everything-else-after-animation {
   margin: 0%;
   height: 100%;
@@ -568,3 +569,12 @@ font-size: 200px;
       transform: rotateY(180deg);
   } 
 } */
+
+.under-construction-to-be-done-later{
+
+  position: relative;
+  top: 200px;
+  left: 50px;
+  color: rgb(153, 21, 21);
+  margin-right: 50%;
+}
