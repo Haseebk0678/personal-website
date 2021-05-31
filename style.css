@@ -336,13 +336,19 @@ body {
   height: 100%;
   background: rgb(3, 18, 31);
   overflow: scroll;
-  font-family: Arial;
+  font-family: joystix;
+}
+
+@font-face {
+    font-family: joystix;
+    src: url(./joystix/joystix\ monospace.ttf);
+    font-weight: italic;
 }
 
 .image-of-smashball{
     position:relative;
     top: -400px;
-    left: 600px;
+    left: 400px;
     opacity: 25%;
     margin-bottom: -30%;
     
@@ -449,12 +455,52 @@ font-size: 200px;
     padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 0%;
+      animation-duration: 400ms;
+      animation-name: blink;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      text-shadow: yellow;
+      text-decoration: none;
+}
+#contact-me-button{
+  position: relative;
+    background-color: gold;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: joystix;
+    transition-duration: 0.4s;
+    top: -100px;
+    left: 10%;
+    border-radius: 5%;
+
+}
+
+#contact-me-button:hover {
+  background-color: rgba(0, 0, 0, 0.712); /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 gold, 0 17px 50px 0 gold;
+}
+
+
+@keyframes blink {
+  from {
+    color: white;
+    }
+  to {
+     color: gold;
+  }
 }
 
 .intro .what-I-want-to-be{
     font-size: 60px;
     margin-top: 0px;
-
     color: rgba(255, 255, 255, 0.541);
 }
 
@@ -481,9 +527,44 @@ font-size: 200px;
     width: 20em;
     height: auto;
     margin-left: 5%;
+    border-radius: 50%;
+
+
+
 }
 
 
 .about-me-section h3{
     margin-right: 5%;
 }
+
+
+@keyframes shyguy {
+	from {left: 825px;}
+}
+
+.shy-guy {
+	animation-name: shyguy;
+  transform: 0;
+  animation-duration: 10s;
+	position: relative;
+	animation-iteration-count: infinite;
+	top: 100px;
+	left: 100px;
+  animation-direction: alternate;
+}
+
+
+
+/* 
+@keyframes flip { 
+  49%{
+    transform: rotateY(0deg);
+  }
+  50%{
+    transform: rotateY(180deg);
+  }
+  99%{ 
+      transform: rotateY(180deg);
+  } 
+} */

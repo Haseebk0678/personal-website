@@ -185,11 +185,12 @@ setTimeout(animate, delay * 10);
 
 
 
+
 const cvs = document.getElementById("cvs")
 
-cvs.addEventListener("animationend", () =>{
+cvs.addEventListener("animationend", () => {
 
-$(cvs).fadeOut(delay *100);
+  $(cvs).fadeOut(delay * 100);
 
 })
 
