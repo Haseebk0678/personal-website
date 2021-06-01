@@ -570,6 +570,14 @@ font-size: 200px;
   } 
 } */
 
+#resume-words{
+  position: relative;
+  top: 100px;
+  left: 600px;
+  color: white;
+}
+
+
 .under-construction-to-be-done-later{
 
   position: relative;
