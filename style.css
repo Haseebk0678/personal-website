@@ -347,16 +347,6 @@ body {
     font-weight: italic;
 }
 
-.image-of-smashball{
-    position:relative;
-    top: -400px;
-    left: 400px;
-    opacity: 25%;
-    margin-bottom: -30%;
-    
-
-}
-
 
 /* Navigation bar */
 
@@ -437,26 +427,33 @@ font-size: 200px;
 }
 
 .intro{
-    padding-left: 15%;
-    color: white;
-    padding-right: 20%;
-    margin-top: 0%;
+  display: flex;
 }
 
 
-.intro #intro-intro-text{
-    margin-top: 15%;
-    margin-bottom: 0%;
-    word-spacing: 5px;
+.image-of-smashball{
+  opacity: 25%;  
+  margin-left: -25%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.wrapper-of-intro-text{
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+
+
+#intro-intro-text{
+
     color: #5e4cba;
   /* #7059e5) center; */
 }
 
 .intro .name{
     font-size: 70px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 0%;
       animation-duration: 400ms;
       animation-name: blink;
       animation-iteration-count: infinite;
@@ -465,7 +462,6 @@ font-size: 200px;
       text-decoration: none;
 }
 #contact-me-button{
-  position: relative;
     background-color: gold;
     border: none;
     color: black;
@@ -478,10 +474,6 @@ font-size: 200px;
     cursor: pointer;
     font-family: joystix;
     transition-duration: 0.4s;
-    top: -100px;
-    left: 10%;
-    border-radius: 5%;
-
 }
 
 #contact-me-button:hover {
@@ -508,6 +500,7 @@ font-size: 200px;
 
 .intro #body-text-about-me{
     padding-right: 50%;
+    color: white;
 }
 
 
@@ -515,24 +508,19 @@ font-size: 200px;
 
 
 .about-me-section{
+  display: flex;
     color: white;
     padding-left: 15%;
     margin-right: 15%;
     margin-top: 15%;
 }
 
-.content-of-aboutme{
-    display: flex;
-}
-
 #my-beautiful-face{
     width: 20em;
     height: auto;
     margin-left: 5%;
+    margin-top: 5%;
     border-radius: 50%;
-
-
-
 }
 
 
@@ -542,17 +530,19 @@ font-size: 200px;
 
 
 @keyframes shyguy {
-	from {left: 825px;}
+  from{
+    left: 80%;
+  }
 }
 
 .shy-guy {
 	animation-name: shyguy;
-  transform: 0;
+  position: relative; 
+  margin: 0%;
+
+  left: 10%;
   animation-duration: 10s;
-	position: relative;
 	animation-iteration-count: infinite;
-	top: 100px;
-	left: 100px;
   animation-direction: alternate;
 }
 
@@ -571,11 +561,13 @@ font-size: 200px;
   } 
 } */
 
-#resume-words{
-  position: relative;
-  top: 100px;
-  left: 600px;
+
+.resume{
+  text-align: center;
+}
+.resume h1{
   color: white;
+
 }
 
 
